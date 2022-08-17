@@ -32,3 +32,4 @@ Navodila za zagon uporabniškega vmesnika:
 4. Zaženemo ukaz `ng serve --open` (to bo odprlo nov zavihek na localhost:4200)
 5. Za slovensko stran gremo na localhost:4200/slo, za angleško pa na localhost:4200/eng# SEROI
 # SEROI
+# SEROI
