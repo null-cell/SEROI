@@ -1,0 +1,122 @@
+nameOfField,indicatorName,proxyName,proxyDescription,financialProxyValue,defaultQuantity,unitOfMeasurement,outcomeIntendedness,outcomePolarity,sourceUrl,sourceCitation,sourceCountry,sourceYear,defaultLeakage,defaultDeadweight,defaultAttribution,defaultYearlyDropoff,defaultDisplacement
+Description of field,Name of the outcome indicator- the overall goal we are trying to reach,Name of the proxy - the measurable means to achieving the outcome,"Description of the proxy - helpful to the user for deciding which proxies they desire to use. This description should also comment on how the default value is measured
+",How much monetary value is achieved when one default quantity of our unit of the proxy is realized?,"The quantity of the Unit of Measurement, for which we have the proxy value in the 'Proxy Value' column.","What is the unit 
+of measurement in 
+which we can express 
+our proxy? (in plural)","Whether this change (outcome), resulting from the described activity (project) is intended (expected) or unintendend (unexpected) by the stakeholder / project group?",Whether this change is positive (desired) or negative (undesired) for the stakeholder.,Where and how did we obtain the data used for the valuation of the proxy and the pairing of the proxy to the indicator - if the study is made available (for free) online.,"Where and how did we obtain the data used for the valuation of the proxy and the pairing of the proxy to the indicator - if the study was published in a peer reviewed journal, article, or public document.",In which country was the indicator-proxy pairing studied and proven (in the source),When was the indicatory-proxy pairing studied (in the source),"The proportion of 
+outputs/outcomes 
+that benefit 
+those outside 
+the target area 
+of the intervention","The proportion of the total
+output/outcome that
+would have been secured
+anyway - without
+the project in question.","An assessment of 
+how much of the outcome 
+was caused by the 
+contribution of other 
+organisations, people,
+or projects other than the
+one in question here.","The yearly rate of Recidivism. 
+What proportion of the indicator will be removed 
+from the estimated yearly
+qunatity in each subsequent 
+year of the ","The proportion of 
+outputs/outcomes 
+that are reduced 
+elsewhere in the 
+target area"
+Type of field,Few words,Few words,Paragraph,Monetary value in Euro (just the number without the € sign),Number (without sign for unit of measurement),Few words,"Either 'Intended' 
+or 
+'Unintended'. Please be mindful of spelling.",Either 'Positive' or 'Negative'. Please be mindful of spelling.,"URL with preceding 'http://' or ""https://"". If not available, leave blank.",Citation in APA format,Country of source in English nomenclature,Year in (YYYY) format,"Number percentage (0 to 100, without the % sign)","Number percentage (0 to 100, without the % sign)","Number percentage (0 to 100, without the % sign)","Number percentage (0 to 100, without the % sign)","Number percentage (0 to 100, without the % sign)"
+Example 1,"Reduction in gang activity 
+in the area",Less grafitti in the area,"A (fictional) study has shown that there is
+a direct correlation between gang activity 
+and the amount of grafitti in the area.
+It also quantifies that sanation of an average piece of grafitti (at least 50x50cm) 
+costs 500 €.",500,1,"Individual grafitti less 
+(per year)",Intended,Positive,https://www.myfictionalurl.org,"Lindley, J., & Coulton, P. (2016, May). Pushing the limits of design fiction: The case for fictional research papers. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (pp. 4032-4043).",Slovenia,2022,5,5,10,50,5
+Example 2,Emissions reduction,Social cost of Carbon,"Business as Usual Scenario from 2011 
+estimates the social cost of carbon.",72,1,"Ton of emitted 
+carbon",Intended,Positive,http://www.economics-ejournal.org/economics/discussionpapers/2011-39,"Hope, C. (2011). The social cost of CO2 from the PAGE09 model. Economics discussion paper, (2011-39).",??,2011,25,10,25,15,5
+,,,,,,,,,,,,,,,,,
+CLIVE:,,,,,,,,,,,,,,,,,
+Job satisfaction,Improved Job Satisfaction (Value to SME) ,Average Recruitment cost ,Average recruitment cost to replace a member of staff assuming in-house recrutiment,5000,1,EUR Per person (one off) – need to look at business staff turnover rates,Intended,Positive,http://seroi.plus/,"Recruitment, retention, turnover, annual, survey 2011 (UK)",UK,2011,0,0,0,0,0
+Job satisfaction,Job Satisfaction (for employer),Average Staff productivity increase ,"Improved
+productivity (with introduction of job appraisal and reward scheme – with
+current as baseline)",6000,1,Rate depends on salary (assume uniform across salary range for this exercise ),Intended,Positive,http://seroi.plus/,Adapted from Journal of Managerial Science (US) 2014,US,2014,0,0,0,0,0
+Carbon (Emissions reduction),Social cost of Carbon emissions,Social cost of Carbon,"The social cost of carbon (SCC) is the marginal cost of the impacts caused by emitting one extra tonne of greenhouse gas (carbon dioxide equivalent) at any point in time, inclusive of 'non-market' impacts on the environment and human health.",72,1,EUR per tonne,Intended,Positive,http://www.economics-ejournal.org/economics/discussionpapers/2011-39/,"Chris W Hope, 2011. ""The Social Cost of CO2 from the PAGE09 Model""",,2011,0,0,0,0,0
+Carbon (Emissions reduction),Employer cost of road transport  for staff,Cost per km of road transport for staff,Figure used for calculating reimbursemetn and tax deductions for km travelled,0.36,1,Cents per Km,Intended,Positive,http://seroi.plus/,Most Ministries of finance have a table for tax returns,,2022,0,0,0,0,0
+Carbon (Emissions reduction),EC Trading cost of carbon - CO2 ,EU Trading cost of carbon per tonne,Trading cost of carbon - CO2 European Emission Allowance,88.48,1,EUR per tonne,Intended,Positive,http://seroi.plus/,European Commission (Values vary by day) – 16/05/2022 ,,2022,0,0,0,0,0
+Other Environmental (Waste reduction and re-cycling-circular economy),Cost to business of Waste Going to Landfill,Cost per KG of collected waste going to landfill,"Waste
+Reductions: Supplier Business Weight reductions of Waste Going to Landfill",0.15,1,EUR wastre per Kg,Intended,Positive,http://seroi.plus/,Based on Irish EPA Minimum Rates for waste collection https://www.epa.ie/,Ireland,2022,0,0,0,0,0
+Other Environmental (Waste reduction and re-cycling-circular economy),Use of Re-cycled Wood,carbon saving from re-cycling/re-using wood,"the cost of carbon saved by recycling goods.
+This proxy is based on the carbon savings from recycling (not waste prevention ",1.83,1,EUR per tonne,Intended,Positive,aggregain.wrap.org.uk/sustainability/try_a_sustainability_tool/co2_emissions.html,Citation in APA format,EU,2022,0,0,0,0,0
+SKILLS Increased business skills as a result of increased certified digital Skills,Professional Vocation Qualification and adult learner well-being,Value of Professional Vocation Qualification (undertaken part-time),The value of obtaining a Professional Vocation Qualification (undertaken part-time) for an adult learner,6412,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+SKILLS Increased business skills as a result of increased certified digital Skills,Increased confidence through Professional Vocation Qualification/For Over 50’s),Value of confidence for over 50's in obtaining Professional Vocation Qualification ,This outcome relates to an individual enrolling on a government training scheme,6667,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+Care and well being (focus on Senior Citizens),Reduction in hospitalisation,overnight cost of hospital care (not including treatment ,"Weighted
+average of several EU MS costs, does not include medical costs (drugs or
+medical intervention)",295,1,EUR per night,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+Care and well being (focus on Senior Citizens),Accident and emergency admission,Average cost of accident and emergency admission ,"Weighted average of EU MS costs, does not include medical costs (drugs or medical intervention)",150,1,EUR per admission,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+Care and well being (focus on Senior Citizens),Reduction in home Medical Visits by doctor,Cost home visit by medical doctor,"Weighted average of EU home visit by doctor, does not include medical costs (drugs or medical intervention)",150,1,EUR per home visit,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+Care and well being (focus on Senior Citizens),Senior well-being due to increased confidence/sense of security,Weekly cost of temporary residential care,Weekly cost of temporary residential care as a measure of Senior well-being due to increased confidence/sense of security (assumes previous sense of insecurity),1000,1,EUR per week,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+Care and well being (focus on Senior Citizens),"Well-being, personal reduction in use of prescribed drugs for anxiety",Cost of prescribed drugs for anxiety,(Cost of prescribing drugs - Here you can take anti-depressants as an example),94,1,Eur per month,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Social factors relating to esteem, isolation and confidence",Self-Confidence (personal capacity of unemployed young people),the value to the economy of increased self-confidence of unemployed young people,the value of confidence in young people relates to the value to the economy of increased self-confidence of unemployed young people ,3305,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Social factors relating to esteem, isolation and confidence",Self-Esteem(gaining),cost of self-esteem and support programme,cost of courses/support initiatives designed to increase self-esteem - from health service data,1200,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Social factors relating to esteem, isolation and confidence",Reducing Isolation,Value of more frequent encounters with friends and family,"Annual value attributed in change from ""seeing friends and relatives once a week"" to ""seeing friends and relatives on most days"". Journal of Socio-Economics Report Source: Linked to WHO's Quality of Life Survey Friendship ",8000,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Social factors relating to esteem, isolation and confidence",Gaining Self-Esteem,Debt reduction through gaining self-esteem, Those with low self-esteem spend 60% more in debt-led consumption and are willing to pay up to 30% more for status consumption in retail.,1484,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Stress, anxiety",Physical illness resulting from Stress,Treatment cost physical illlness resulting from stress ,National Health Service proxy value for treating stress related physical Illness ,1835,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Stress, anxiety","
+
+Improvement in mental state, incl.
+reduced anxiety and distress ",Value decrease self-harming behaviour,This financial proxy has been used to value a decrease in self-harming behaviour ,1176,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Stress, anxiety",Stress reduction,cost stress managment course ,Cost of a stress management therapy course (UK) – stress could be measured via a ‘before and after survey’ ,829,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+"Stress, anxiety",Hospital treatment of stress related disorders,cost of mental health hospital treatment for stress,average cost of mental health hospital treatment for people with stress related disorders,3069,1,EUR per Year,Intended,Positive,http://seroi.plus/,Citation in APA format,EU,2022,0,0,0,0,0
+,,,,,,,,,,,,,,,,,
+Vaccination consent case:,,,,,,,,,,,,,,,,,
+Reduced admin cost,Reduced cost of paper handling,Paper and printing cost,Cost per unit,"0,2",1,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin cost,Reduced cost of paper handling,Postage cost per unit,Cost per unit,"0,3",1,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin cost,Reduced cost of paper handling,Envelope cost per unit,Cost per unit,"0,2",1,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin cost,Number of units sent,Number of units sent,N/A,N/A,1,Number of units,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin cost,Reduced admin time for paper handling,Hour spent per postage unit,N/A,N/A,"0,5",Hour,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin cost,Reduced admin time for scanning and registration,Hour spent per postage unit,N/A,N/A,"0,5",Hour,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin cost,Reduced cost of wages,Hourly cost of wages,Hourly average cost of wages,40,,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin and improved reach,Time saving per consent,Hourly saving,N/A,N/A,"0,1",Hour,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin and improved reach,Value of time,Hourly value of time,Hourly average cost of wages,40,,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin and improved reach,Number of legal guardians,Number of legal guardians,N/A,N/A,1,Number of guardians,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin and improved reach,Increased service level,Increase of reach,Percental increase of fulfilled consents,N/A,5,Percent,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin time,Time saving per consent/pupil,Hourly saving,N/A,N/A,"0,05",Hour,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin time,Reduced cost of wages,Hourly cost of wages,Hourly average cost of wages,40,,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced admin time,Number of pupils,Number of pupils,N/A,N/A,,Number of pupils,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced stress and workload,Reduced number of sick leave hours per year and nurse,Sick leave hours,N/A,N/A,40,Hour,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced stress and workload,Reduced cost of wages,Hourly cost of wages,Hourly average cost of wages,40,,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced stress and workload,Number of school nurses,Number of school nurses,N/A,N/A,1,Number of school nurses,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Improved patient security and health,Increase of number of vaccinated pupils,Increase of fulfilled vaccinations,N/A,N/A,2%,Percent,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Improved patient security and health,Reduced cost for caregivers,Value of each vaccinated pupil,Average cost of non-vaccinated person,900,,EUR ,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2021,0,0,0,0,0
+Improved patient security and health,Number of pupils,Number of pupils,N/A,N/A,,Number of pupils,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced cost of staff turnover,Reduced cost of recruitment and introducing new school nurses,Number of hours spent per new staff,N/A,N/A,240,Hour,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced cost of staff turnover,Reduction in staff turnover per year,Staff turnover reduction per year,N/A,N/A,10,Percent,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+Reduced cost of staff turnover,Number of employed school nurses,Number of school nurses,N/A,N/A,,Number of school nurses,Intended,Positive,http://seroi.plus/,Citation in APA format,Sweden,2022,0,0,0,0,0
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Winehub case:,,,,,,,,,,,,,,,,,
+Improve soil health,Biodiversity protection  - Improve soil health,Fewer interventions and tillage of soil,"Proportion of agricultural area under productive and sustainable agriculture. The purpuse is to ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production.
+Formula: 𝐴𝑟𝑒𝑎 𝑢𝑛𝑑𝑒𝑟 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑎𝑛𝑑 𝑠𝑢𝑠𝑡𝑎𝑖𝑛𝑎𝑏𝑙𝑒 𝑎𝑔𝑟𝑖𝑐𝑢𝑙𝑡𝑢𝑟𝑒 (numerator) / 𝐴𝑔𝑟𝑖𝑐𝑢𝑙𝑡𝑢𝑟𝑎𝑙 𝑙𝑎𝑛𝑑 𝑎𝑟𝑒𝑎 (denominator)",100,1,%,Intended,Positive,"https://unstats.un.org/sdgs/metadata/  
+Indicator 2.4.1
+and https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?view=chart ",Citation in APA format,Slovenia,2018,0,0,0,0,0
+Reduce use of drinking water,Level of water stress,Less use of drinking water,Freshwater withdrawal as a proportion of available freshwater resources with purpose to ensure sustainable withdrawals and supply of freshwater snd to address water scarcity. ,100,1,%,Intended,Positive,"https://unstats.un.org/sdgs/metadata/?Text=water&Goal=&Target= 
+Indicator 6.4.2
+and
+https://data.worldbank.org/indicator/ER.H2O.FWTL.ZS?view=chart&locations=SI  
+",Citation in APA format,Slovenia,2017,0,0,0,0,0
+Reduce use of fertilizers,Fertilizer consumption ,Fewer negative effects on the environment due to excessive use of agrochemicals,Fertilizer consumption measures the quantity of plant nutrients used per unit of arable land. ,100,1,kg/hectare of arable land,Intended,Positive,https://data.worldbank.org/indicator/AG.CON.FERT.ZS?view=chart ,Citation in APA format,Slovenia,2018,0,0,0,0,0
+Increase earnings of the farm,"
+Greater earnings due to lower crop loss","The greater the amount of crop, the greater the earnings ","Agriculture, forestry and fishing value added (annual % growth)
+Annual growth rate for agricultural, forestry, and fishing value added based on constant local currency. 
+",100,1,%,Intended,Positive,https://data.worldbank.org/indicator/NV.AGR.TOTL.KD.ZG?locations=SI&view=chart,Citation in APA format,Slovenia,2020,0,0,0,0,0
+Increase earnings of the farm,Greater earnings due to lower fertilizer expenses,Lower expenses,Less treatnments with fertilisers have direct impact on less costs,100,100,Kg/Ha,Intended,Positive,https://www.haifa-group.com/complete-haifa-recommendation-fertilization-vineyards,Citation in APA format,"Italy
+Spain",2021,0,0,0,0,0
+Reduce use of drinking water,Lower water consumption,Lower production cost due to lower water consumption,Lower water consumption,1,1,L/m3,Intended,Positive,"https://agriculture.vic.gov.au/support-and-resources/tools-and-calculators/farm-water-calculator
+https://cekin.si/koristno/koliko-stane-voda.html",Citation in APA format,Slovenia,2015,0,0,0,0,0

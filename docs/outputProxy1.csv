@@ -1,0 +1,83 @@
+defaultAttribution,defaultDeadweight,defaultDisplacement,defaultLeakage,defaultQuantity,defaultYearlyDropoff,financialProxyValue,indicatorName,nameOfField,outcomeIntendedness,outcomePolarity,proxyDescription,proxyName,sourceCitation,sourceCountry,sourceUrl,sourceYear,unitOfMeasurement
+10,5,5,5,1,50,500,"Reduction in gang activity 
+in the area",Example 1,Intended,Positive,"A (fictional) study has shown that there is
+a direct correlation between gang activity 
+and the amount of grafitti in the area.
+It also quantifies that sanation of an average piece of grafitti (at least 50x50cm) 
+costs 500 €.",Less grafitti in the area,"Lindley, J., & Coulton, P. (2016, May). Pushing the limits of design fiction: The case for fictional research papers. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (pp. 4032-4043).",Slovenia,https://www.myfictionalurl.org,2022,"Individual grafitti less 
+(per year)"
+25,10,5,25,1,15,72,Emissions reduction,Example 2,Intended,Positive,"Business as Usual Scenario from 2011 
+estimates the social cost of carbon.",Social cost of Carbon,"Hope, C. (2011). The social cost of CO2 from the PAGE09 model. Economics discussion paper, (2011-39).",??,http://www.economics-ejournal.org/economics/discussionpapers/2011-39,2011,"Ton of emitted 
+carbon"
+0,0,0,0,1,0,5000,Improved Job Satisfaction (Value to SME) ,Job satisfaction,Intended,Positive,Average recruitment cost to replace a member of staff assuming in-house recrutiment,Average Recruitment cost ,"Recruitment, retention, turnover, annual, survey 2011 (UK)",UK,http://seroi.plus/,2011,EUR Per person (one off) – need to look at business staff turnover rates
+0,0,0,0,1,0,6000,Job Satisfaction (for employer),Job satisfaction,Intended,Positive,"Improved
+productivity (with introduction of job appraisal and reward scheme – with
+current as baseline)",Average Staff productivity increase ,Adapted from Journal of Managerial Science (US) 2014,US,http://seroi.plus/,2014,Rate depends on salary (assume uniform across salary range for this exercise )
+0,0,0,0,1,0,72,Social cost of Carbon emissions,Carbon (Emissions reduction),Intended,Positive,"The social cost of carbon (SCC) is the marginal cost of the impacts caused by emitting one extra tonne of greenhouse gas (carbon dioxide equivalent) at any point in time, inclusive of 'non-market' impacts on the environment and human health.",Social cost of Carbon,"Chris W Hope, 2011. ""The Social Cost of CO2 from the PAGE09 Model""",,http://www.economics-ejournal.org/economics/discussionpapers/2011-39/,2011,EUR per tonne
+0,0,0,0,1,0,0.36,Employer cost of road transport  for staff,Carbon (Emissions reduction),Intended,Positive,Figure used for calculating reimbursemetn and tax deductions for km travelled,Cost per km of road transport for staff,Most Ministries of finance have a table for tax returns,,http://seroi.plus/,2022,Cents per Km
+0,0,0,0,1,0,88.48,EC Trading cost of carbon - CO2 ,Carbon (Emissions reduction),Intended,Positive,Trading cost of carbon - CO2 European Emission Allowance,EU Trading cost of carbon per tonne,European Commission (Values vary by day) – 16/05/2022 ,,http://seroi.plus/,2022,EUR per tonne
+0,0,0,0,1,0,0.15,Cost to business of Waste Going to Landfill,Other Environmental (Waste reduction and re-cycling-circular economy),Intended,Positive,"Waste
+Reductions: Supplier Business Weight reductions of Waste Going to Landfill",Cost per KG of collected waste going to landfill,Based on Irish EPA Minimum Rates for waste collection https://www.epa.ie/,Ireland,http://seroi.plus/,2022,EUR wastre per Kg
+0,0,0,0,1,0,1.83,Use of Re-cycled Wood,Other Environmental (Waste reduction and re-cycling-circular economy),Intended,Positive,"the cost of carbon saved by recycling goods.
+This proxy is based on the carbon savings from recycling (not waste prevention ",carbon saving from re-cycling/re-using wood,Citation in APA format,EU,aggregain.wrap.org.uk/sustainability/try_a_sustainability_tool/co2_emissions.html,2022,EUR per tonne
+0,0,0,0,1,0,6412,Professional Vocation Qualification and adult learner well-being,SKILLS Increased business skills as a result of increased certified digital Skills,Intended,Positive,The value of obtaining a Professional Vocation Qualification (undertaken part-time) for an adult learner,Value of Professional Vocation Qualification (undertaken part-time),Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,6667,Increased confidence through Professional Vocation Qualification/For Over 50’s),SKILLS Increased business skills as a result of increased certified digital Skills,Intended,Positive,This outcome relates to an individual enrolling on a government training scheme,"Value of confidence for over 50's in obtaining Professional Vocation Qualification ",Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,295,Reduction in hospitalisation,Care and well being (focus on Senior Citizens),Intended,Positive,"Weighted
+average of several EU MS costs, does not include medical costs (drugs or
+medical intervention)",overnight cost of hospital care (not including treatment ,Citation in APA format,EU,http://seroi.plus/,2022,EUR per night
+0,0,0,0,1,0,150,Accident and emergency admission,Care and well being (focus on Senior Citizens),Intended,Positive,"Weighted average of EU MS costs, does not include medical costs (drugs or medical intervention)",Average cost of accident and emergency admission ,Citation in APA format,EU,http://seroi.plus/,2022,EUR per admission
+0,0,0,0,1,0,150,Reduction in home Medical Visits by doctor,Care and well being (focus on Senior Citizens),Intended,Positive,"Weighted average of EU home visit by doctor, does not include medical costs (drugs or medical intervention)",Cost home visit by medical doctor,Citation in APA format,EU,http://seroi.plus/,2022,EUR per home visit
+0,0,0,0,1,0,1000,Senior well-being due to increased confidence/sense of security,Care and well being (focus on Senior Citizens),Intended,Positive,Weekly cost of temporary residential care as a measure of Senior well-being due to increased confidence/sense of security (assumes previous sense of insecurity),Weekly cost of temporary residential care,Citation in APA format,EU,http://seroi.plus/,2022,EUR per week
+0,0,0,0,1,0,94,"Well-being, personal reduction in use of prescribed drugs for anxiety",Care and well being (focus on Senior Citizens),Intended,Positive,(Cost of prescribing drugs - Here you can take anti-depressants as an example),Cost of prescribed drugs for anxiety,Citation in APA format,EU,http://seroi.plus/,2022,Eur per month
+0,0,0,0,1,0,3305,Self-Confidence (personal capacity of unemployed young people),"Social factors relating to esteem, isolation and confidence",Intended,Positive,the value of confidence in young people relates to the value to the economy of increased self-confidence of unemployed young people ,the value to the economy of increased self-confidence of unemployed young people,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,1200,Self-Esteem(gaining),"Social factors relating to esteem, isolation and confidence",Intended,Positive,cost of courses/support initiatives designed to increase self-esteem - from health service data,cost of self-esteem and support programme,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,8000,Reducing Isolation,"Social factors relating to esteem, isolation and confidence",Intended,Positive,"Annual value attributed in change from ""seeing friends and relatives once a week"" to ""seeing friends and relatives on most days"". Journal of Socio-Economics Report Source: Linked to WHO's Quality of Life Survey Friendship ",Value of more frequent encounters with friends and family,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,1484,Gaining Self-Esteem,"Social factors relating to esteem, isolation and confidence",Intended,Positive, Those with low self-esteem spend 60% more in debt-led consumption and are willing to pay up to 30% more for status consumption in retail.,Debt reduction through gaining self-esteem,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,1835,Physical illness resulting from Stress,"Stress, anxiety",Intended,Positive,National Health Service proxy value for treating stress related physical Illness ,Treatment cost physical illlness resulting from stress ,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,1176,"
+
+Improvement in mental state, incl.
+reduced anxiety and distress ","Stress, anxiety",Intended,Positive,This financial proxy has been used to value a decrease in self-harming behaviour ,Value decrease self-harming behaviour,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,829,Stress reduction,"Stress, anxiety",Intended,Positive,Cost of a stress management therapy course (UK) – stress could be measured via a ‘before and after survey’ ,cost stress managment course ,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,3069,Hospital treatment of stress related disorders,"Stress, anxiety",Intended,Positive,average cost of mental health hospital treatment for people with stress related disorders,cost of mental health hospital treatment for stress,Citation in APA format,EU,http://seroi.plus/,2022,EUR per Year
+0,0,0,0,1,0,"0,2",Reduced cost of paper handling,Reduced admin cost,Intended,Positive,Cost per unit,Paper and printing cost,Citation in APA format,Sweden,http://seroi.plus/,2022,EUR 
+0,0,0,0,1,0,"0,3",Reduced cost of paper handling,Reduced admin cost,Intended,Positive,Cost per unit,Postage cost per unit,Citation in APA format,Sweden,http://seroi.plus/,2022,EUR 
+0,0,0,0,1,0,"0,2",Reduced cost of paper handling,Reduced admin cost,Intended,Positive,Cost per unit,Envelope cost per unit,Citation in APA format,Sweden,http://seroi.plus/,2022,EUR 
+0,0,0,0,1,0,N/A,Number of units sent,Reduced admin cost,Intended,Positive,N/A,Number of units sent,Citation in APA format,Sweden,http://seroi.plus/,2022,Number of units
+0,0,0,0,"0,5",0,N/A,Reduced admin time for paper handling,Reduced admin cost,Intended,Positive,N/A,Hour spent per postage unit,Citation in APA format,Sweden,http://seroi.plus/,2022,Hour
+0,0,0,0,"0,5",0,N/A,Reduced admin time for scanning and registration,Reduced admin cost,Intended,Positive,N/A,Hour spent per postage unit,Citation in APA format,Sweden,http://seroi.plus/,2022,Hour
+0,0,0,0,,0,40,Reduced cost of wages,Reduced admin cost,Intended,Positive,Hourly average cost of wages,Hourly cost of wages,Citation in APA format,Sweden,http://seroi.plus/,2022,EUR 
+0,0,0,0,"0,1",0,N/A,Time saving per consent,Reduced admin and improved reach,Intended,Positive,N/A,Hourly saving,Citation in APA format,Sweden,http://seroi.plus/,2022,Hour
+0,0,0,0,,0,40,Value of time,Reduced admin and improved reach,Intended,Positive,Hourly average cost of wages,Hourly value of time,Citation in APA format,Sweden,http://seroi.plus/,2022,EUR 
+0,0,0,0,1,0,N/A,Number of legal guardians,Reduced admin and improved reach,Intended,Positive,N/A,Number of legal guardians,Citation in APA format,Sweden,http://seroi.plus/,2022,Number of guardians
+0,0,0,0,5,0,N/A,Increased service level,Reduced admin and improved reach,Intended,Positive,Percental increase of fulfilled consents,Increase of reach,Citation in APA format,Sweden,http://seroi.plus/,2022,Percent
+0,0,0,0,"0,05",0,N/A,Time saving per consent/pupil,Reduced admin time,Intended,Positive,N/A,Hourly saving,Citation in APA format,Sweden,http://seroi.plus/,2022,Hour
+0,0,0,0,,0,40,Reduced cost of wages,Reduced admin time,Intended,Positive,Hourly average cost of wages,Hourly cost of wages,Citation in APA format,Sweden,http://seroi.plus/,2022,EUR 
+0,0,0,0,,0,N/A,Number of pupils,Reduced admin time,Intended,Positive,N/A,Number of pupils,Citation in APA format,Sweden,http://seroi.plus/,2022,Number of pupils
+0,0,0,0,40,0,N/A,Reduced number of sick leave hours per year and nurse,Reduced stress and workload,Intended,Positive,N/A,Sick leave hours,Citation in APA format,Sweden,http://seroi.plus/,2022,Hour
+0,0,0,0,,0,40,Reduced cost of wages,Reduced stress and workload,Intended,Positive,Hourly average cost of wages,Hourly cost of wages,Citation in APA format,Sweden,http://seroi.plus/,2022,EUR 
+0,0,0,0,1,0,N/A,Number of school nurses,Reduced stress and workload,Intended,Positive,N/A,Number of school nurses,Citation in APA format,Sweden,http://seroi.plus/,2022,Number of school nurses
+0,0,0,0,2%,0,N/A,Increase of number of vaccinated pupils,Improved patient security and health,Intended,Positive,N/A,Increase of fulfilled vaccinations,Citation in APA format,Sweden,http://seroi.plus/,2022,Percent
+0,0,0,0,,0,900,Reduced cost for caregivers,Improved patient security and health,Intended,Positive,Average cost of non-vaccinated person,Value of each vaccinated pupil,Citation in APA format,Sweden,http://seroi.plus/,2021,EUR 
+0,0,0,0,,0,N/A,Number of pupils,Improved patient security and health,Intended,Positive,N/A,Number of pupils,Citation in APA format,Sweden,http://seroi.plus/,2022,Number of pupils
+0,0,0,0,240,0,N/A,Reduced cost of recruitment and introducing new school nurses,Reduced cost of staff turnover,Intended,Positive,N/A,Number of hours spent per new staff,Citation in APA format,Sweden,http://seroi.plus/,2022,Hour
+0,0,0,0,10,0,N/A,Reduction in staff turnover per year,Reduced cost of staff turnover,Intended,Positive,N/A,Staff turnover reduction per year,Citation in APA format,Sweden,http://seroi.plus/,2022,Percent
+0,0,0,0,,0,N/A,Number of employed school nurses,Reduced cost of staff turnover,Intended,Positive,N/A,Number of school nurses,Citation in APA format,Sweden,http://seroi.plus/,2022,Number of school nurses
+0,0,0,0,1,0,100,Biodiversity protection  - Improve soil health,Improve soil health,Intended,Positive,"Proportion of agricultural area under productive and sustainable agriculture. The purpuse is to ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production.
+Formula: 𝐴𝑟𝑒𝑎 𝑢𝑛𝑑𝑒𝑟 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑎𝑛𝑑 𝑠𝑢𝑠𝑡𝑎𝑖𝑛𝑎𝑏𝑙𝑒 𝑎𝑔𝑟𝑖𝑐𝑢𝑙𝑡𝑢𝑟𝑒 (numerator) / 𝐴𝑔𝑟𝑖𝑐𝑢𝑙𝑡𝑢𝑟𝑎𝑙 𝑙𝑎𝑛𝑑 𝑎𝑟𝑒𝑎 (denominator)",Fewer interventions and tillage of soil,Citation in APA format,Slovenia,"https://unstats.un.org/sdgs/metadata/  
+Indicator 2.4.1
+and https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?view=chart ",2018,%
+0,0,0,0,1,0,100,Level of water stress,Reduce use of drinking water,Intended,Positive,Freshwater withdrawal as a proportion of available freshwater resources with purpose to ensure sustainable withdrawals and supply of freshwater snd to address water scarcity. ,Less use of drinking water,Citation in APA format,Slovenia,"https://unstats.un.org/sdgs/metadata/?Text=water&Goal=&Target= 
+Indicator 6.4.2
+and
+https://data.worldbank.org/indicator/ER.H2O.FWTL.ZS?view=chart&locations=SI  
+",2017,%
+0,0,0,0,1,0,100,Fertilizer consumption ,Reduce use of fertilizers,Intended,Positive,Fertilizer consumption measures the quantity of plant nutrients used per unit of arable land. ,Fewer negative effects on the environment due to excessive use of agrochemicals,Citation in APA format,Slovenia,https://data.worldbank.org/indicator/AG.CON.FERT.ZS?view=chart ,2018,kg/hectare of arable land
+0,0,0,0,1,0,100,"
+Greater earnings due to lower crop loss",Increase earnings of the farm,Intended,Positive,"Agriculture, forestry and fishing value added (annual % growth)
+Annual growth rate for agricultural, forestry, and fishing value added based on constant local currency. 
+","The greater the amount of crop, the greater the earnings ",Citation in APA format,Slovenia,https://data.worldbank.org/indicator/NV.AGR.TOTL.KD.ZG?locations=SI&view=chart,2020,%
+0,0,0,0,100,0,100,Greater earnings due to lower fertilizer expenses,Increase earnings of the farm,Intended,Positive,Less treatnments with fertilisers have direct impact on less costs,Lower expenses,Citation in APA format,"Italy
+Spain",https://www.haifa-group.com/complete-haifa-recommendation-fertilization-vineyards,2021,Kg/Ha
+0,0,0,0,1,0,1,Lower water consumption,Reduce use of drinking water,Intended,Positive,Lower water consumption,Lower production cost due to lower water consumption,Citation in APA format,Slovenia,"https://agriculture.vic.gov.au/support-and-resources/tools-and-calculators/farm-water-calculator
+https://cekin.si/koristno/koliko-stane-voda.html",2015,L/m3

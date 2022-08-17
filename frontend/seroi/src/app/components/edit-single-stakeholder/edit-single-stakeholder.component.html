@@ -1,0 +1,28 @@
+<!-- input fields for all Stakeholder parameters -->
+<div class="form-group">
+    <label for="stakeholder_name" class="col-sm-2 control-label">Stakeholder Name</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="stakeholder_name" name="stakeholder_name" placeholder="Stakeholder Name" [formControl]="name">
+    </div>
+  <label for="stakeholder_description" class="col-sm-2 control-label">Stakeholder Description</label>
+  <div class="col-sm-10">
+    <input type="text" class="form-control" id="stakeholder_description" name="stakeholder_description" placeholder="Stakeholder Description" [formControl]="description">
+  </div>
+  <label for="stakeholder_type" class="col-sm-2 control-label">Stakeholder Type</label>
+  <div class="col-sm-10">
+    <input type="text" class="form-control" id="stakeholder_type" name="stakeholder_type" placeholder="Stakeholder Type" [formControl]="type">
+  </div>
+</div>
+<!-- button that calls saveStakeholder() on click-->
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <button type="button" class="btn btn-default" (click)="saveStakeholder()">Save</button>
+  </div>
+</div>
+
+<!-- button that calls deleteStakeholder() on click -->
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <button type="button" class="btn btn-default" (click)="deleteStakeholder()">Delete</button>
+  </div>
+</div>

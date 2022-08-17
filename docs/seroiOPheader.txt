@@ -1,0 +1,1 @@
+nameOfField,indicatorName,proxyName,proxyDescription,financialProxyValue,defaultQuantity,unitOfMeasurement,outcomeIntendedness,outcomePolarity,sourceUrl,sourceCitation,sourceCountry,sourceYear,defaultLeakage,defaultDeadweight,defaultAttribution,defaultYearlyDropoff,defaultDisplacement

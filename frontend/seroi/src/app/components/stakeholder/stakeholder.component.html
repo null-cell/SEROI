@@ -1,0 +1,37 @@
+<div class="container">
+  <!--  header for stakeholders-->
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">All stakeholders</h1>
+    </div>
+  </div>
+  <!--  end header for stakeholders-->
+  <div *ngIf="error != ''" class="row">
+    <div class="col-md-12">
+      <div class="alert alert-danger">
+        {{error}}
+      </div>
+    </div>
+  </div>
+  <div *ngIf="error === ''" class="row">
+    <!--  card for each stakeholder with its name, type and description-->
+    <div class="col-md-6" *ngFor="let stakeholder of stakeholders">
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{stakeholder.name}}</h5>
+            <p class="card-text">{{stakeholder.type}}</p>
+            <p class="card-text">{{stakeholder.description}}</p>
+            <a (click)="editStakeholder(stakeholder._id)" class="btn btn-primary">Edit</a>
+          </div>
+        </div>
+
+    </div>
+    <!--  end card for each stakeholder with its name, type and description-->
+
+    <div class="col-md-12">
+      <a (click)="addStakeholder()" class="btn btn-primary">Add stakeholder</a>
+    </div>
+  </div>
+
+</div>

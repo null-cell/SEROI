@@ -1,0 +1,35 @@
+<div class="container">
+<!--  header for projects-->
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Projects</h1>
+    </div>
+  </div>
+<!--  end of header for projects-->
+  <div *ngIf="error != ''" class="row">
+    <div class="col-md-12">
+      <div class="alert alert-danger">
+        {{error}}
+      </div>
+    </div>
+  </div>
+  <div *ngIf="error === ''" class="row">
+    <!--  card for each program with its name and description-->
+    <div class="col-md-6" *ngFor="let project of projects">
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{project.name}}</h5>
+            <p class="card-text">{{project.description}}</p>
+            <a (click)="editProject(project._id)" class="btn btn-primary">Edit</a>
+          </div>
+        </div>
+
+    </div>
+    <!--  end card for each program with its name and description-->
+
+    <div class="col-md-12" style="width: 100%">
+      <a (click)="addProject()" class="btn btn-primary">Add Project</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+<div class="container">
+  <!--  header for programs-->
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">All programs</h1>
+    </div>
+  </div>
+  <!--  end header for programs-->
+  <div *ngIf="error != ''" class="row">
+    <div class="col-md-12">
+      <div class="alert alert-danger">
+        {{error}}
+      </div>
+    </div>
+  </div>
+  <div *ngIf="error === ''" class="row">
+    <!--  card for each program with its name and description-->
+    <div class="col-md-6" *ngFor="let program of programs">
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{program.name}}</h5>
+            <p class="card-text">{{program.description}}</p>
+            <a (click)="editProgram(program._id)" class="btn btn-primary">Edit</a>
+          </div>
+        </div>
+
+    </div>
+    <!--  end card for each program with its name and description-->
+
+    <div class="col-md-12">
+      <a (click)="addProgram()" class="btn btn-primary">Add program</a>
+    </div>
+  </div>
+
+</div>

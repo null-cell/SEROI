@@ -1,0 +1,61 @@
+<!-- input fields for all Project parameters-->
+<div class="form-group">
+
+  <label for="project_name" class="col-sm-2 control-label">Project Name</label>
+  <div class="col-sm-10">
+      <input type="text" class="form-control" id="project_name" name="project_name" placeholder="Project Name" [formControl]="name">
+  </div>
+
+  <label for="project_description" class="col-sm-2 control-label">Project Description</label>
+  <div class="col-sm-10">
+      <input type="text" class="form-control" id="project_description" name="project_description" placeholder="Project Description" [formControl]="description">
+  </div>
+
+  <label for="project_start_date" class="col-sm-2 control-label">Project Start Date</label>
+  <div class="col-sm-10">
+      <input type="date" class="form-control" id="project_start_date" name="project_start_date" placeholder="Project Start Date" [formControl]="startDate">
+  </div>
+
+  <div class="col-sm-10">
+    <mat-form-field appearance="fill">
+      <mat-label>Parent program</mat-label>
+      <mat-select [(value)]="this.parentId" [disabled]="!new">
+        <mat-option *ngFor="let program of programs" value="{{program._id}}">{{program.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+
+<!--  button that calls saveProject() on click-->
+
+  <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default" (click)="saveProject()">Save</button>
+  </div>
+
+<!--  button that calls deleteProject() on click-->
+  <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default" (click)="deleteProject()">Delete</button>
+  </div>
+
+<!--  cards of stakeholders-->
+
+    <div class="card" *ngFor="let stakeholderSchema of stakeholders; index as i">
+      <div class="card-header">
+        <h4 class="card-title">{{stakeholderSchema.stakeHolder.name}}</h4>
+      </div>
+      <div class="card-body">
+        <label for="stakeholder_description" class="col-sm-2 control-label">Description</label>
+        <p id="stakeholder_description">{{stakeholderSchema.stakeHolder.description}}</p>
+
+        <label for="stakeholder_type">Stakeholder type</label>
+        <p id="stakeholder_type">{{stakeholderSchema.stakeHolder.type}}</p>
+      </div>
+      <button type="button" class="btn btn-primary" (click)="editStakeholder(i)">Edit Stakeholder</button>
+    </div>
+
+    <button type="button" class="btn btn-primary" (click)="addStakeholder()">Add Stakeholder</button>
+
+
+
+
+</div>

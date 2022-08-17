@@ -1,0 +1,20 @@
+<!-- input fields for all Stakeholder parameters -->
+<script src="edit-subschema-stakeholder.component.ts"></script>
+<div class="form-group">
+  <div class="col-sm-10">
+    <mat-form-field appearance="fill">
+      <mat-label>Stakeholder</mat-label>
+      <mat-select [(value)]="this.selectedIdStakeholder" >
+        <mat-option *ngFor="let iStakeholder of allStakeholders" value="{{iStakeholder._id}}" [disabled]="usedStakeholders.includes(iStakeholder._id)">{{iStakeholder.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+</div>
+
+<!--confirmSchema() button-->
+<div class="form-group">
+  <div class="col-sm-10">
+    <button class="btn btn-success" color="primary" (click)="saveStakeholder()">Save selection</button>
+  </div>
+</div>
